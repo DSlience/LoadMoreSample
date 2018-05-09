@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--LoadMoreRecyclerView的颜色-->
+    <!--加载更多-->
+    <color name="recycler_load_more">#da1419</color>
+    <!--没有更多-->
+    <color name="recycler_no_more">#2a2a2a</color>
+
+</resources>

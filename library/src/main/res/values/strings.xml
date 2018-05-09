@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Library</string>
+
+    <!--LoadMoreRecyclerView-->
+    <string name="load_more_loading">加载中...</string>
+    <string name="load_more_error">加载失败，点击重试</string>
+    <string name="common_load_more_end">没有更多了</string>
+
+    <!-- CircularProgressBar -->
+    <string name="cpb_default_sweep_speed" format="float">1</string>
+    <string name="cpb_default_rotation_speed" format="float">1</string>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/color_c1_c1d_corners_50dp_selector"
+            android:gravity="center"
+            android:minHeight="@dimen/dimen_44dp"
+            android:onClick="goLoadMoreRecycler"
+            android:text="Load more RecyclerView"
+            android:textColor="@color/color_g7"
+            android:textSize="@dimen/dimen_14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>
