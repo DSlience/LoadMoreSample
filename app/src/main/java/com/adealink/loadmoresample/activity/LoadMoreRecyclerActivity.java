@@ -11,7 +11,6 @@ import com.adealink.loadmoresample.presenter.LoadMoreRecyclerPresenter;
 import com.adealink.loadmoresample.view.LoadMoreMvpView;
 
 import butterknife.BindView;
-import butterknife.ButterKnife;
 
 /**
  * Created by Xuefu_Du on 2018/5/9.
@@ -32,7 +31,6 @@ public class LoadMoreRecyclerActivity extends BaseMvpActivity<LoadMoreMvpView, L
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_load_more_recycler);
-        ButterKnife.bind(this);
 
         LogUtil.d("d_slience", "mRecyclerView:" + mRecyclerView);
         LogUtil.d("d_slience", "mRecyclerView == null:" + (mRecyclerView == null));

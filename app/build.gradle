@@ -1,6 +1,4 @@
 apply plugin: 'com.android.application'
-//Butter Knife
-apply plugin: 'com.jakewharton.butterknife'
 
 android {
     compileSdkVersion 26
